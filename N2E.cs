@@ -26,7 +26,7 @@ namespace Num2English
 					if (i == 0)
 						dStr += " point";
 
-					dStr += " " + process((long)Math.Floor( d*10 - Math.Floor(d)*10 ));
+					dStr += " " + process(Math.Floor( d*10 - Math.Floor(d)*10 ));
 				}
 
 				// Process integer portion of n
